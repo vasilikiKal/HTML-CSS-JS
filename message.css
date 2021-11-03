@@ -1,0 +1,47 @@
+﻿*{
+    margin:0;
+    padding:0;
+}
+#message{
+    margin:1.9rem;
+    width:18.5rem;
+    height:18.5rem;
+    border-radius:1rem;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0rgba(0, 0, 0, 0.19);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+fieldset{
+    width:16.2rem;
+    height:16.2rem;
+    border-radius:0.5rem;
+    border:2px solid grey;
+}
+legend{
+    text-align:center;
+    margin-top:1rem;
+    font-size:1.2rem;
+    margin-bottom:1rem;
+}
+label{
+    margin:2rem;  
+}
+input{
+    margin-left:2rem;
+    margin-bottom:1rem;
+}
+textarea{
+    margin-left:2rem;
+    margin-bottom:0.8rem;
+}
+input[type=submit]{
+    width:4rem;
+    height:1.8rem;
+    font-size:0.9rem;
+    text-align:center;
+    border-radius:4px;
+    border:none;
+    color:#fff;
+    background-color:#26c80f;
+}
