@@ -1,0 +1,21 @@
+﻿*{
+    margin:0;
+    padding:0;
+    background:black;
+}
+#loding{
+    width:15rem;
+    height:15rem;
+    position:fixed;
+    top:25%;
+    left:15%;
+    border:10px solid;
+    border-radius:50%;
+    border-color:#00ff87 #00422357;
+    animation:1.5s spin infinite linear;
+}
+@keyframes spin{
+    to{
+        transform:rotate(306deg);
+    }
+}
